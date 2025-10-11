@@ -320,7 +320,7 @@ Animator:
   m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
+  m_AllowConstantClipSamplingOptimization: 0
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &29960559
