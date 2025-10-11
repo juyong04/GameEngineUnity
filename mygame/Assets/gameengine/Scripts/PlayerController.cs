@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 5.0f;
     
     void Update()
-{
+    {
     
     // A키 - 왼쪽으로 이동
     if (Input.GetKey(KeyCode.A))
@@ -21,5 +21,5 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.right * moveSpeed * Time.deltaTime);
         Debug.Log("오른쪽으로 이동 중!");
     }
-}
+    }
 }
